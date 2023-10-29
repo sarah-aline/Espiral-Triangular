@@ -1,1 +1,7 @@
+O código possui uma função calcularCoordenadas.
 
+A função calcularCoordenadas recebe um valor e calcula as coordenadas correspondentes com base em uma sequência de operações. O cálculo das coordenadas é baseado em um padrão específico que foi definido anteriormente no código.
+
+A main é o ponto de entrada do programa. São declaradas como variáveis n​​, i, x, e y. n armazenará o valor de entrada fornecido pelo usuário, i será uma variável de controle do loop, x e y será usado para armazenar conforme coordenadas calculadas. O programa entra em um loop for que itera de até 0 a n ,ou seja, percorre todos os valores de 0 a n. Dentro do loop, a função calcularCoordenadas é chamada com o valor atual de i e as variáveis x​​ e y como parâmetros. Após o termo do loop, as coordenadas de n são impressas na tela usando printf.
+
+Em resumo, o código solicita ao usuário um valor n, calcula as coordenadas correspondentes usando a função calcularCoordenadas para cada valor de i no intervalo de 0 a n, e, finalmente, imprime as coordenadas calculadas para o valor de nna tela. A complexidade do código é constante (Θ(1)), pois o tempo de execução não depende do valor de n.
